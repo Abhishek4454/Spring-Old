@@ -16,6 +16,10 @@
 	<context:component-scan
 		base-package="com.coding.SpringProject"></context:component-scan>
 	<!-- <bean id="vehicle" class="com.coding.SpringProject.Bike"> </bean> -->
+	<bean id="tyre" class="com.coding.SpringProject.Tyre">
+	<!-- <property name="brand" value="MRF"></property> -->
+	<constructor-arg  value="MRF"></constructor-arg>
+	</bean>
 
 </beans>
                 
